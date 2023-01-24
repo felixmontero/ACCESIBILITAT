@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    
+    <title>Desarrollador Web</title>
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Félix <span>Montero</span></h1>
+                    <nav id="nav">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#tarjetas" onclick="seleccionar(this)">PROYECTOS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.youtube.com/@FenixxQ"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://github.com/felixmontero"><i class="fa-brands fa-github"></i></a> 
+                        <a href="https://www.linkedin.com/in/f%C3%A9lix-montero-595465259/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/felix.montero_/?next=%2F"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos a mi Portafolio</p>
+                <h2>Desarrollador Web - Félix Montero</h2>
+                <p class="descripcion">En este Portafolio encontrarás información sobre mi desarrollo profesional</p>
+                <a href="#sobremi">Ir al Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="images/IMG-20190817-WA0110-50.avif" alt="Foto depresentacion">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Félix Montero</span> </h2>
+            <h3>Desarrollador Web</h3>
+            <p>Estudiante de Desarrollo Web en Es Liceu.</p>
+            <p>Me considero una persona con mucha motivación y con ganas de seguir mejorando, en cuanto al sector web me gusta tanto 
+                el backend como el frontend (full stack).
+            </p>
+            <a href="images/Félix Montero (1) (1).pdf" target="_blank">Ver CV</a>
+        </div>
+    </section>
+
+ <!-- SECCION TARJERAS-->
+
+ <section id="tarjetas">
+    <h3 class="titulo-seccion">CV</h3>
+    <div class="fila">
+        <article class="tarjeta">
+            <span class="icono"> <i class="fa-solid fa-graduation-cap"></i></span>
+            <h4>Estudios</h4>
+            <hr>
+                <p>Segundo de Bachillerato (2019-2021)</p>
+                <p>Curso de DAW en ES LICEU (Cursando)</p>
+                <p>Curso de Desarrollo Web en Udemy (Cursando)</p>
+           
+        </article>
+
+        <article class="tarjeta">
+            <span class="icono"> <i class="fa-solid fa-language"></i></span>
+            <h4>Idiomas</h4>
+            <hr>
+            <p>Castellano Nativo</p>
+            <p>Catalán Nativo</p>
+            <p>Inglés nivel medio (mejorando)</p>
+           
+        </article>
+
+        <article class="tarjeta">
+            <span class="icono"><i class="fa-solid fa-person"></i></span>
+            <h4>Perfil personal</h4>
+            <hr>
+            <p>Trabajo en equipo</p>
+            <p>Actitud proactiva</p>
+            <p>Positividad ante los retos</p>
+            <p>Capacidad de liderar equipos</p>
+           
+        </article>
+    </div>
+
+</section>
+
+
+<section id="tarjetas">
+    <h3 class="titulo-seccion">PROYECTOS</h3>
+    <div class="fila">
+        <article class="tarjeta">
+            <span class="icono"><i class="fa-solid fa-gamepad"></i></span>
+            <h4>MAZE GAME</h4>
+            <hr>
+                <p>Juego del laberinto, un personaje esta encerrado en un laberinto y debe salir de él.</p>
+                <p>Lenguajes utilizados: Html, Css, JS y Java</p>
+                <br>
+                <a href="https://github.com/felixmontero/SegonaPracticaObligatoria" title="github link"><i class="fa-brands fa-github"></i></a> 
+           
+        </article>
+
+        <article class="tarjeta">
+            <span class="icono"><i class="fa-solid fa-square"></i></span>
+            <h4>Figuras</h4>
+            <hr>
+                <p>Un usuario puede entrar a la página y mediante un formulario crear diferentes figuras.</p>
+                <p>Lenguajes utilizados: Html, Css, JS y Java</p>
+                <br>
+                <a href="https://github.com/felixmontero/PrimeraPracticaObligatoria" title="github link"><i class="fa-brands fa-github"></i></a> 
+           
+        </article>
+
+        <article class="tarjeta">
+            <span class="icono"> <i class="fa-brands fa-docker"></i></span>
+            <h4>Docker</h4>
+            <hr>
+                <p>Explicación de como instalar Docker y crear un proyecto desde cero con dicha herramienta</p>
+                <p>Lenguajes utilizados: Markdown</p>
+                <br>
+                <a href="https://github.com/felixmontero/docker" title="github link"><i class="fa-brands fa-github"></i></a> 
+           
+        </article>
+    </div>
+
+</section>
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contacta ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad" required>
+                    <input type="email" placeholder="Dirección de Email *" class="input-mitad" required>
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+       
+        <div class="redes">
+            <a href="https://www.youtube.com/@FenixxQ"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://github.com/felixmontero"><i class="fa-brands fa-github"></i></a> 
+            <a href="https://www.linkedin.com/in/f%C3%A9lix-montero-595465259/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/felix.montero_/?next=%2F"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
