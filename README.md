@@ -32,6 +32,23 @@ Arreglado al mejorar la página. Sin errores.
 
 En este apartado abarcaremos todos los problemas de accesibilidad que no se puede comprobar con Lighthouse.
 
+### Principio 1 – Perceptible
+#### Pauta 1.1 – Textos alternativos
 + 1.1.1 Contenido sin texto Nivel A -> Arreglado
-+ 1.2.1 Solo audio y solo video (pregrabado) Nivel A -> Mirado (Se cumple "no tengo audio")
+#### Directriz 1.2 – Medios basados en el tiempo
++ 1.2.1 Solo audio y solo video (pregrabado) Nivel A -> Comprobado (Se cumple "no tengo audio")
 + 1.2.2 Subtítulos (pregrabados) Nivel A -> Comprobado (Se cumple)
++ 1.2.3 Descripción de audio o alternativa de medios (pregrabada) Nivel A-> Comprobado (No se utilza audio en la página)
++ 1.2.4 Subtítulos (en vivo) Nivel AA -> Comprobado (No se utilza audio en la página)
++ 1.2.5 Descripción de audio (pregrabado) Nivel AA -> Comprobado (No se utilza audio en la página)
+#### Directriz 1.3 – Adaptable
++ 1.3.1 Información y Relaciones Nivel A -> Comprobado (Se Cumple)
++ 1.3.2 Secuencia significativa Nivel A -> Comprobado (G57, se cumple)
++ 1.3.3 Características sensoriales Nivel A -> Comprobado (Se cumple)
+#### Pauta 1.4 – Distinguible
++ 1.4.1 Uso del color Nivel A -> Se cumple
++ 1.4.2 control de sonido Nivel A -> No hay audio en la página web
++ 1.4.3 Contraste (mínimo) Nivel AA -> Cumple con la normativa
++ 1.4.4 Cambiar el tamaño del texto Nivel AA -> Cumple (No pierde funcionalidad con el zoom)
++ 1.4.5 Imágenes de texto Nivel AA -> Comprobado (La página cumple con los requerimietos)
+### Principio 2 – Operable
