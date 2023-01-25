@@ -52,3 +52,13 @@ En este apartado abarcaremos todos los problemas de accesibilidad que no se pued
 + 1.4.4 Cambiar el tamaño del texto Nivel AA -> Cumple (No pierde funcionalidad con el zoom)
 + 1.4.5 Imágenes de texto Nivel AA -> Comprobado (La página cumple con los requerimietos)
 ### Principio 2 – Operable
+#### Pauta 2.1 – Teclado accesible
++ 2.1.1 Teclado Nivel A -> Comprobado (Cumple)
++ 2.1.2 Sin trampa de teclado Nivel A-> Comprobado
+#### Pauta 2.2 – Tiempo suficiente
++ 2.2.1 Tiempo ajustable Nivel A -> Comprobado (en la página no hay ningín elemento que requiera tiempo)
++ 2.2.2 Pausa, Detener, Ocultar Nivel A -> Comprobado (No hay desplazamiento automático
+#### Pauta 2.3 – Convulsiones y Reacciones Físicas
++ 2.3.1
+Tres destellos o por debajo del umbral Nivel A -> Comprobado (No hay nada que cambie más de 3 veces en 1 segundo)
+#### Directriz 2.4 – Navegable
