@@ -71,4 +71,19 @@ Tres destellos o por debajo del umbral Nivel A -> Comprobado (No hay nada que ca
 #### Directriz 2.5 – Modalidades de entrada
 + Facilitar a los usuarios operar la funcionalidad a través de varias entradas más allá del teclado. ->  Sí (ya que aparte del teclado se utiliza ratón)
 ### Principio 3 – Comprensible
-
+#### Pauta 3.1 – Legible
++ 3.1.1 Idioma de la página Nivel A -> Cumple
++ 3.1.2 Idioma de las partes Nivel AA -> Cumple
+#### Directriz 3.2 – Predecible
++ 3.2.1 Enfocado Nivel A -> Cumple
++ 3.2.2 en la entrada Nivel A -> Se Cumple
++ 3.2.3 Navegación consistente Nivel AA -> Comprobado (Sigue un orden "solo una página" ya que es una single page, cumple la normativa)
++ 3.2.4 Identificación consistente Nivel AA -> Se cumple
+#### Pauta 3.3 – Asistencia de entrada
++ 3.3.1 Error de identificación Nivel A -> Cumple con la normativa
++ 3.3.2 Etiquetas o instrucciones Nivel A -> Se cumple 
++ 3.3.3 Sugerencia de error Nivel AA -> Cumple con la normativa
++ 3.3.4 Prevención de Errores (Legal, Financiero, Datos) Nivel AA -> Comprobado (Se cumple, los datos al rellenar el formulario son reversibles "si existe algún error ej: poner mal el correo sin @", el usuario puede comprobar los datos antes de enviarlos no obstante como no hay servidor el usuario no puede ver los datos enviados).ç
+### Principio 4 – Robusto
+#### Pauta 4.1 – Compatible
++ 4.1.1 análisis Nivel A ->  Comprobado Se cumple
