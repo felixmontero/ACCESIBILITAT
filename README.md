@@ -7,7 +7,6 @@ Se revisarán diferentes puntos con tal de que siga la normativa de la W3C
 
 Para poder comprobar los fallos que tiene nuestro sitio web Utilizamos dicha herramienta que nos dará una valoración de nuestra página.
 
---FOTOS
 
 ### PERFORMANCE
 
@@ -38,7 +37,7 @@ En este apartado abarcaremos todos los problemas de accesibilidad que no se pued
 #### Directriz 1.2 – Medios basados en el tiempo
 + 1.2.1 Solo audio y solo video (pregrabado) Nivel A -> Comprobado (Se cumple "no tengo audio")
 + 1.2.2 Subtítulos (pregrabados) Nivel A -> Comprobado (Se cumple)
-+ 1.2.3 Descripción de audio o alternativa de medios (pregrabada) Nivel A-> Comprobado (No se utilza audio en la página)
++ 1.2.3 Descripción de audio o alternativa de medios (pregrabada) Nivel A -> Comprobado (No se utilza audio en la página)
 + 1.2.4 Subtítulos (en vivo) Nivel AA -> Comprobado (No se utilza audio en la página)
 + 1.2.5 Descripción de audio (pregrabado) Nivel AA -> Comprobado (No se utilza audio en la página)
 #### Directriz 1.3 – Adaptable
