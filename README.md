@@ -83,7 +83,7 @@ Tres destellos o por debajo del umbral Nivel A -> Comprobado (No hay nada que ca
 + 3.3.1 Error de identificación Nivel A -> Cumple
 + 3.3.2 Etiquetas o instrucciones Nivel A -> Cumple 
 + 3.3.3 Sugerencia de error Nivel AA -> Cumple
-+ 3.3.4 Prevención de Errores (Legal, Financiero, Datos) Nivel AA -> Comprobado (Cumple, los datos al rellenar el formulario son reversibles "si existe algún error ej: poner mal el correo sin @", el usuario puede comprobar los datos antes de enviarlos no obstante como no hay servidor el usuario no puede ver los datos enviados).ç
++ 3.3.4 Prevención de Errores (Legal, Financiero, Datos) Nivel AA -> Comprobado (Cumple, los datos al rellenar el formulario son reversibles "si existe algún error ej: poner mal el correo sin @", el usuario puede comprobar los datos antes de enviarlos no obstante como no hay servidor el usuario no puede ver los datos enviados).
 ### Principio 4 – Robusto
 #### Pauta 4.1 – Compatible
 + 4.1.1 análisis Nivel A ->  Cumple
