@@ -87,4 +87,4 @@ Tres destellos o por debajo del umbral Nivel A -> Comprobado (No hay nada que ca
 ### Principio 4 – Robusto
 #### Pauta 4.1 – Compatible
 + 4.1.1 análisis Nivel A ->  Cumple
-4.1.2 Nombre, Rol, Valor Nivel A -> Cumple (H88)
++ 4.1.2 Nombre, Rol, Valor Nivel A -> Cumple (H88)
