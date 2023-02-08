@@ -2,8 +2,8 @@
   "name": "porfolio-daw",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
   "scripts": {
+    "build": "npx parcel build index.html",
     "start": "npx parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
