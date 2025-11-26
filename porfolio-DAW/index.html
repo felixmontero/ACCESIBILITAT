@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <!-- <link rel="stylesheet" href="estilo.css"> -->
@@ -36,128 +36,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <style>
-        #inicio {
-    background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("images/IMG-20190817-WA0103-50.webp");
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-}
-
-#inicio .contenido header {
-    background-color: rgba(0, 0, 0, .8);
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-    top: 0;
-}
-
-#inicio .contenido header .contenido-header {
-    max-width: 1100px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-#inicio .contenido header .contenido-header h1 {
-    text-align: center;
-    color: green;
-}
-
-#inicio .contenido header .contenido-header nav ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-
-#inicio .contenido header .contenido-header nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    margin: 0 12px;
-    font-weight: 400;
-    transition: .5s;
-}
-
-#inicio .contenido header .contenido-header nav ul li a:hover {
-    color: green;
-}
-
-#inicio .contenido header .contenido-header .redes a {
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    margin-left: 10px;
-    transition: .5s;
-}
-
-#inicio .contenido header .contenido-header .redes a:hover {
-    color: green;
-}
-
-#inicio .contenido header .contenido-header .seleccionado {
-    color: green;
-}
-
-#inicio .contenido .presentacion {
-    max-width: 1100px;
-    height: 100vh;
-    margin: auto;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#inicio .contenido .presentacion .bienvenida {
-    font-size: 16px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-}
-
-#inicio .contenido .presentacion h2 {
-    font-size: 55px;
-    margin-bottom: 25px;
-    text-align: center;
-}
-
-#inicio .contenido .presentacion h2 span {
-    font-size: 25px;
-    color: green;
-}
-
-#inicio .contenido .presentacion .descripcion {
-    max-width: 700px;
-    margin: 25px auto;
-    font-size: 18px;
-    text-align: center;
-}
-
-#inicio .contenido .presentacion a {
-    text-decoration: none;
-    display: inline-block;
-    margin: 25px;
-    padding: 20px 25px;
-    border: 2px solid #fff;
-    border-radius: 50px;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: .5s;
-}
-
-#inicio .contenido .presentacion a:hover {
-    background-color: green;
-}
-
-#icono-nav {
-    color: #fff;
-    display: none;
-}
-    </style>
 </head>
 
 <body>
@@ -169,15 +47,16 @@
                     <h1>Félix <span>Montero</span></h1>
                     <nav id="nav">
                         <ul id="links">
-                            <li><a href="#inicio" class="seleccionado" >INICIO</a></li>
-                            <li><a href="#sobremi" >SOBRE MI</a></li>
-                            <li><a href="#tarjetas" >PROYECTOS</a></li>
-                            <li><a href="#contacto" >CONTACTO</a></li>
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#tarjetas" onclick="seleccionar(this)">CV</a></li>
+                            <li><a href="#proyectos" onclick="seleccionar(this)">PROYECTOS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
                         </ul>
                     </nav>
 
                     <!-- Icono del menu responsive -->
-                    <div id="icono-nav" >
+                    <div id="icono-nav" onclick="responsiveMenu()">
                         <i class="fa-solid fa-bars"></i>
                     </div>
 
@@ -203,7 +82,7 @@
     <!-- SECCION S O B R E M I -->
     <section id="sobremi">
         <div class="contenedor-foto">
-            <img src="/images/Felix.webp" width="267.02" height="380.54" alt="Foto depresentacion">
+            <img src="images/Felix.webp" alt="Foto de presentacion">
         </div>
         <div class="sobremi">
             <p class="titulo-seccion">Sobre Mi</p>
@@ -257,7 +136,7 @@
 </section>
 
 
-<section id="tarjetas">
+<section id="proyectos">
     <h3 class="titulo-seccion">PROYECTOS</h3>
     <div class="fila">
         <article class="tarjeta">
@@ -325,7 +204,31 @@
         </div>
     </footer>
 
-   
+    <script>
+        function seleccionar(link) {
+            var opciones = document.querySelectorAll('#links  a');
+            opciones[0].className = "";
+            opciones[1].className = "";
+            opciones[2].className = "";
+            opciones[3].className = "";
+            opciones[4].className = "";
+            link.className = "seleccionado";
+
+            // Hacemos desaparecer el menu una vez que se ha seleccionado una opcion
+            // en modo responsive
+            var x = document.getElementById("nav");
+            x.className = "";
+        }
+
+        function responsiveMenu() {
+            var x = document.getElementById("nav");
+            if (x.className === "") {
+                x.className = "responsive";
+            } else {
+                x.className = "";
+            }
+        }
+    </script>
 </body>
 
 </html>
