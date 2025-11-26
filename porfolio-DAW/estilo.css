@@ -468,6 +468,25 @@ footer a {
         text-align: center;
     }
 
+    /* seccion TARJETAS y PROYECTOS */
+    #tarjetas,
+    #proyectos {
+        padding: 50px 15px;
+    }
+
+    #tarjetas .fila,
+    #proyectos .fila {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #tarjetas .fila .tarjeta,
+    #proyectos .fila .tarjeta {
+        max-width: 100%;
+        width: 100%;
+        margin: 10px 0;
+    }
+
     /* seccion CONTACTO */
     #contacto {
         padding: 50px 15px;
